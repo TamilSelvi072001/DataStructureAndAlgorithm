@@ -2,8 +2,6 @@ package BinarySerch;
 
 import java.util.Arrays;
 
-import javafx.util.Pair;
-
 public class FloorAndCeil {
      static int[] getFloorAndCeil(int[] arr, int n, int x) {
           Arrays.sort(arr);
