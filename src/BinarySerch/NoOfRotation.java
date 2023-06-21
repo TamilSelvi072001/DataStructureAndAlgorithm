@@ -4,7 +4,6 @@ public class NoOfRotation {
     //Number of rotations made in a sorted array
     private static int findKRotation(int arr[], int n) {
         int min=Integer.MAX_VALUE;
-        int temp=0;
         int low=0,high=n-1,ind=0;
        //if array is sorted
         if(arr[low]<arr[high]){
