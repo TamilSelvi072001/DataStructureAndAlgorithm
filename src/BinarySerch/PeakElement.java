@@ -1,9 +1,7 @@
 package BinarySerch;
 public class PeakElement {
     public static void main(String[] args) {
-        int arr[]={1,2,2
-            
-            ,1};
+        int arr[]={1,2,2,1};
         int ans=peakElement(arr,arr.length);
         if(ans==-1) System.out.println("0");
         else  System.out.println("1");
