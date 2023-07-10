@@ -21,7 +21,7 @@ public class MergeSort {
     public static int[] merge(int arr[], int l, int m, int r)
     {
         ArrayList<Integer> temp=new ArrayList<Integer>();
-         int left=l,right=m+1,ind=0;
+         int left=l,right=m+1;
          while(left<=m && right<=r){
              if(arr[left]>arr[right]){
                 temp.add(arr[right++]);

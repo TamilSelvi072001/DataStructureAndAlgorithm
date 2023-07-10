@@ -1,7 +1,5 @@
 package BinarySerch;
 
-import java.util.ArrayList;
-
 public class NumberOfOccruence {
      public static void main(String[] args) {
         int n=9, x=5;
