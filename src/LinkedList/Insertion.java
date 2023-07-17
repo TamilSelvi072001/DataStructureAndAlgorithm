@@ -1,12 +1,15 @@
 package LinkedList;
-class Node{
+
+class Node {
     int data;
     Node next;
-    Node(int x){
+
+    Node(int x) {
         data = x;
         next = null;
     }
 }
+
 public class Insertion {
 
     // Function to insert a node at the beginning of the linked list.
@@ -37,21 +40,22 @@ public class Insertion {
     }
 
     public static void main(String[] args) {
-        Node head=null;
-        head=insertAtBeginning(head,9);
-        head=insertAtBeginning(head,1);
-        head=insertAtBeginning(head,4);
-        head=insertAtEnd(head,7);
-        head=insertAtBeginning(head,3);
-        head=insertAtEnd(head,7);
-        head=insertAtEnd(head,0);
-        head=insertAtEnd(head,2);
+        Node head = null;
+        head = insertAtBeginning(head, 9);
+        head = insertAtBeginning(head, 1);
+        head = insertAtBeginning(head, 4);
+        head = insertAtEnd(head, 7);
+        head = insertAtBeginning(head, 3);
+        head = insertAtEnd(head, 7);
+        head = insertAtEnd(head, 0);
+        head = insertAtEnd(head, 2);
         print(head);
     }
-    public static void print(Node node){
-        while(node!=null){
+
+    public static void print(Node node) {
+        while (node != null) {
             System.out.print(node.data);
-            node=node.next;    
+            node = node.next;
         }
     }
 }
