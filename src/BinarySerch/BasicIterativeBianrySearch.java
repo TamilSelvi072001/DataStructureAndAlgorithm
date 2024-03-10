@@ -9,7 +9,7 @@ package BinarySerch;
             System.out.print(ans);
         }
     
-    public static int binarysearch(int arr[], int n, int k) {
+        public static int binarysearch(int arr[], int n, int k) {
         int low=0;
         int high=n-1;
         while(low<=high){

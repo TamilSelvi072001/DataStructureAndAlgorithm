@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PreOrder",
+            "request": "launch",
+            "mainClass": "BinaryTree.PreOrder",
+            "projectName": "DataStructureAndAlgorithm_4bbe32c9"
+        },
+        {
+            "type": "java",
+            "name": "NoOfRotation",
+            "request": "launch",
+            "mainClass": "BinarySerch.NoOfRotation",
+            "projectName": "DataStructureAndAlgorithm_4bbe32c9"
+        },
+        {
+            "type": "java",
+            "name": "MinimumElement",
+            "request": "launch",
+            "mainClass": "BinarySerch.MinimumElement",
+            "projectName": "DataStructureAndAlgorithm_4bbe32c9"
+        },
+        {
+            "type": "java",
+            "name": "PreOrderTraversal",
+            "request": "launch",
+            "mainClass": "PreOrder.PreOrderTraversal",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
