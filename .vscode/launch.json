@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PostOrder",
+            "request": "launch",
+            "mainClass": "BinaryTree.PostOrder",
+            "projectName": "DataStructureAndAlgorithm_4bbe32c9"
+        },
+        {
+            "type": "java",
+            "name": "InOrder",
+            "request": "launch",
+            "mainClass": "BinaryTree.InOrder",
+            "projectName": "DataStructureAndAlgorithm_4bbe32c9"
+        },
+        {
+            "type": "java",
             "name": "PreOrder",
             "request": "launch",
             "mainClass": "BinaryTree.PreOrder",
