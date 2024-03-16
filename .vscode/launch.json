@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IterativeInOrder",
+            "request": "launch",
+            "mainClass": "BinaryTree.IterativeInOrder",
+            "projectName": "DataStructureAndAlgorithm_4bbe32c9"
+        },
+        {
+            "type": "java",
             "name": "NumOfNodes",
             "request": "launch",
             "mainClass": "BinaryTree.NumOfNodes",
