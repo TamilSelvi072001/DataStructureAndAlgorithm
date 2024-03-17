@@ -25,7 +25,6 @@ class IterativeInOrder{
         }
     }
     public static List<List<Integer>> getTreeTraversal(Node root) {
-        // Write your code here.
 		List<List<Integer>> ans=new ArrayList<List<Integer>>();
 		List<Integer> inOrder=new ArrayList<>();
 		List<Integer> preOrder=new ArrayList<>();
