@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IdenticalTree",
+            "request": "launch",
+            "mainClass": "BinaryTree.IdenticalTree",
+            "projectName": "DataStructureAndAlgorithm_4bbe32c9"
+        },
+        {
+            "type": "java",
             "name": "BalancedBinaryTree",
             "request": "launch",
             "mainClass": "BinaryTree.BalancedBinaryTree",
