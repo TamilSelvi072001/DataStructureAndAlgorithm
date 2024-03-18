@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SymmetricTree",
+            "request": "launch",
+            "mainClass": "BinaryTree.SymmetricTree",
+            "projectName": "DataStructureAndAlgorithm_d5bff952"
+        },
+        {
+            "type": "java",
             "name": "Diameter",
             "request": "launch",
             "mainClass": "BinaryTree.Diameter",
