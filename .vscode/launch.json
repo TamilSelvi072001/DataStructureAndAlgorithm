@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ZigZaag",
+            "request": "launch",
+            "mainClass": "BinaryTree.ZigZaag",
+            "projectName": "DataStructureAndAlgorithm_4bbe32c9"
+        },
+        {
+            "type": "java",
             "name": "IdenticalTree",
             "request": "launch",
             "mainClass": "BinaryTree.IdenticalTree",
