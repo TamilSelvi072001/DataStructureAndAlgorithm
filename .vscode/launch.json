@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "Array.TwoSum",
+            "projectName": "DataStructureAndAlgorithm_4bbe32c9"
+        },
+        {
+            "type": "java",
             "name": "ValidAnagram",
             "request": "launch",
             "mainClass": "Array.ValidAnagram",
