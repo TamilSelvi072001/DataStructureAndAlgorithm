@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidAnagram",
+            "request": "launch",
+            "mainClass": "Array.ValidAnagram",
+            "projectName": "DataStructureAndAlgorithm_4bbe32c9"
+        },
+        {
+            "type": "java",
             "name": "ZigZaag",
             "request": "launch",
             "mainClass": "BinaryTree.ZigZaag",
